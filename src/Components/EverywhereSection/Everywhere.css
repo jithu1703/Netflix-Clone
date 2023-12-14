@@ -1,0 +1,54 @@
+.Watch{
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80 0;
+
+
+        .left-section{
+            width: 35%;
+            padding-right: 20px;
+
+            h2{
+                font-size: 48px;
+                white-space: nowrap;
+                font-weight: 700;
+            }
+
+            p{
+                font-size: 24px;
+                padding-top: 16px;
+            }
+        }
+
+        .right-section{
+            position: relative;
+
+            .image-container{
+                position: relative;
+            }
+
+            img{
+                width: 450px;
+                position: relative;
+                z-index: 20;
+                top: 20px;
+            }
+
+            video{
+                position: absolute;
+                top: 5px;
+                left: 89px;
+                width: 60%;
+                height: 72%;
+                z-index: 19;
+                object-fit: contain;
+            }
+        }
+    }
+}

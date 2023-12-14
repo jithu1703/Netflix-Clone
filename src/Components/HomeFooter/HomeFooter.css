@@ -1,0 +1,71 @@
+.HomeFooter{
+    background-color: black;
+    margin: 10px;
+    color: white;
+    position: relative;
+    height: 450px;
+
+    .container{
+        padding: 70px 0;
+    }
+
+    h5{
+        padding-left: 11%;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(185 185 185);
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 5%;
+        
+        
+    }
+
+    .col{
+        padding: 2% 4%;
+        
+    }
+
+    ul{
+        list-style: none;
+        
+
+        li{
+            padding: 8px;
+            
+            
+        }
+
+        a{
+            color: rgb(185, 185,185);
+        }
+
+    }
+    .language-btn{
+        position: relative;
+    }
+    .dropdown{
+        position: absolute;
+        top: 0px;
+        left: 11%;
+
+        button{
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 6px 12px;
+            font-size: 16px;
+            display: flex;
+            border: none;
+            border: 1px solid rgb(138, 138, 138);
+            border-radius: 5px;
+
+            text{
+                padding: 0 10px;
+            }
+        }
+    }
+}
